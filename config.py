@@ -7,23 +7,28 @@ load_dotenv()
 # client vars
 API_ID = int(getenv("API_ID", "7452578"))
 API_HASH = getenv("API_HASH", "061d67ee8eed9368c5cadabb4aa21efc")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "
+8_PxTqCgf-d_M_vra0-wHTLR_QXmC-yprzkAduEOxfk")
 SESSION_NAME = getenv("SESSION_NAME", "")
 
 # mandatory vars
-OWNER_USERNAME = getenv("OWNER_USERNAME", "rr8r9")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "@
+B2-2B")
 ALIVE_NAME = getenv("ALIVE_NAME", "sonng")
 BOT_USERNAME = getenv("BOT_USERNAME", "")
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/X02lx/RrRRR")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "@QOI-Uu")
 UPSTREAM_BRANCH = getenv("UPSTREM_BRANCH", "main")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
 GROUP_SUPPORT = getenv("GROUP_SUPPORT", "rr8r9")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "xl444")
+UPDATES_CHANNEL = getenv("
+@KKKK-B
+", "xl444")
 
 # database, decorators, handlers mandatory vars
 MONGODB_URL = getenv("MONGODB_URL", "mongodb+srv://veez:mega@cluster0.heqnd.mongodb.net/veez?retryWrites=true&w=majority")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! . $").split())
-OWNER_ID = list(map(int, getenv("OWNER_ID", "1854384004").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "
+588307112377").split()))
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1854384004").split()))
 
 # image resources vars
